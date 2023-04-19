@@ -31,8 +31,9 @@ export async function dropQuestions(req,res){
 }
 
 export async function getResult(req,res){
-    try{
-       res.json({result : 'result'})
+    try{ 
+       const r = await Result.find()
+       res.json(r)
     }catch(err){
         res.json({err})
     }
