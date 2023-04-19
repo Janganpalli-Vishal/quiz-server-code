@@ -1,6 +1,6 @@
 import { questions } from "../models/questionSchema.js"
 import  ques, {answers}  from '../database/data.js'
-import Result from "../../client/src/components/Result.js"
+import Result from "../models/resultSchema.js"
 
 
 
